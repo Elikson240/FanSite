@@ -1,0 +1,118 @@
+
+
+    body {
+        background-image: url("https://static.wikia.nocookie.net/43a65a5a-ac0c-4090-a83d-021ddd4152c5");
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
+    }
+
+    img {
+        width: 400px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h1 {
+        background-color: red;
+        width: 600px;
+        opacity: 0.8;
+    }
+
+    #container {
+        display: flex;
+        justify-content: space-around;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    #banner {
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+    }   
+
+    #nav {
+        white-space: nowrap;
+        text-align: center;
+        margin: 0 auto;
+        border: solid 5px blue;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        width: 990px;
+        font-size: 20px;
+        background-color: #176aa6;
+        opacity: 0.9;
+    }
+
+    #nav a {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        color: red;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    #nav a:hover {
+        color: purple;
+    }
+
+    #main {
+        width: 700px;
+        border: solid 5px red;
+        margin-right: auto;
+        margin-left: auto;
+        height: 500px;
+        background-color: #ba210d;
+        opacity: 0.9;
+        text-indent: 20px;
+    }
+
+    #aside {
+        width: 300px;
+        height: 500px;
+        border: solid 5px black;
+    }
+    #bottom {
+        width: 990px;
+        height: 500px;
+        border: solid 5px black;
+        margin: 0 auto;
+        background-color: blue;
+        opacity: 0.8;
+        text-indent: 20px;
+    }
+
+    #footer {
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        font-size: 15px;
+        text-transform: uppercase;
+        border: solid 5px #9b0ecf;
+        padding-top: 5px;
+        width: 990px;
+        height: 30px;
+        background-color: #b707f7;
+        opacity: 0.9;
+    }
+
+    #Pride {
+        width: 300px;
+        height: 500px;
+    }
+
+    .imgLeft {
+        float: left;
+        margin-right: 15;
+    }
+
+    .imgRight {
+        float: right;
+        margin-left: 15;
+    }
+
